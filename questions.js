@@ -1,95 +1,102 @@
 let questions = [
     {
-        question: 'Em qual elemento HTML nós colocamos o javascript?',
+        question: 'Quem foi o homem criado por Deus?',
         options: [
-            'tag js',
-            'tag script',
-            'tag scripting',
-            'tag javascript'
+            'Adão',
+            'Moisés',
+            'Abraão',
+            'Davi'
         ],
-        answer: 1
+        answer: 0
     },
     {
-        question: 'Onde é o local certo de colocar o javascript?',
+        question: 'Qual discípulo escreveu mais livros na Bíblia?',
         options: [
-            'Na tag body',
-            'Na tag head',
-            'Tanto na tag body quanto a head estão corretas'
+            'Pedro',
+            'João',
+            'Paulo',
+            'Tiago'
         ],
         answer: 2
     },
     {
-        question: 'Qual a sintaxe correta para adicionar um arquivo javascript externo na tag script?',
+        question: 'Quem escreveu o livro de Apocalipse?',
         options: [
-            'name="xxx.js"',
-            'src="xxx.js"',
-            'href="xxx.js"'
-        ],
-        answer: 1
-    },
-    {
-        question: 'Um arquivo javascript externo precisa ter a tag script',
-        options: [
-            'Verdade',
-            'Falso'
-        ],
-        answer: 1
-    },
-    {
-        question: 'Como escrever um "Olá Mundo" em um alertbox?',
-        options: [
-            'alertBox("Olá Mundo")',
-            'msgBox("Olá Mundo")',
-            'msg("Olá Mundo")',
-            'alert("Olá Mundo")'
+            'Pedro',
+            'Jesus',
+            'Paulo',
+            'João'
         ],
         answer: 3
     },
     {
-        question: 'Como você cria uma função no Javascript?',
+        question: 'Quem obedeceu a Deus e construiu uma arca?',
         options: [
-            'function:minhaFuncao()',
-            'function = minhaFuncao()',
-            'function minhaFuncao()'
+            'Melquesedeque',
+            'Sansão',
+            'Noé',
+            'Salomão'
         ],
         answer: 2
     },
     {
-        question: 'Como chamar uma função chamada "minhaFuncao"?',
+        question: 'Qual objeto Moisés usou para tocar nas águas para que abrissem?',
         options: [
-            'call minhaFuncao',
-            'call function minhaFuncao',
-            'minhaFuncao()'
-        ],
-        answer: 2
-    },
-    {
-        question: 'Como escrever uma condicional IF no Javascript?',
-        options: [
-            'if i = 5',
-            'if i == 5 then',
-            'if (i == 5)',
-            'if i = 5 then'
-        ],
-        answer: 2
-    },
-    {
-        question: 'Como fazer um if que executa um código caso "i" for diferente de 5',
-        options: [
-            'if (i != 5)',
-            'if (i <> 5)',
-            'if i <> 5',
-            'if i =! 5 then'
+            'cajado',
+            'pedra',
+            'funda',
+            'coroa'
         ],
         answer: 0
     },
     {
-        question: 'Como o loop while começa?',
+        question: 'Quais eram os 3 discípulos mais próximos de Jesus?',
         options: [
-            'while (i <= 10)',
-            'while (i <= 10; i++)',
-            'while i = 1 to 10'
+            'Pedro, João e Judas',
+            'Judas, Pedro e Tiago',
+            'Tiago, Pedro e João',
+            'Judas, Tiago e Simeão'
         ],
-        answer: 0
+        answer: 2
+    },
+    {
+        question: 'Qual o primeiro discípulo a chegar no túmulo de Jesus depois que ele ressuscitou?',
+        options: [
+            'Pedro',
+            'João',
+            'Judas',
+            'Tiago'
+        ],
+        answer: 1
+    },
+    {
+        question: 'Quem era conhecido como o homem segundo o coração de Deus?',
+        options: [
+            'Samuel',
+            'Saul',
+            'Jorão',
+            'Davi'
+        ],
+        answer: 3
+    },
+    {
+        question: 'Onde Jesus nasceu?',
+        options: [
+            'Jerusalem',
+            'Judá',
+            'Belém',
+            'Samaria'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Quem foi o último profeta?',
+        options: [
+            'Malaquias',
+            'Oseias',
+            'Samuel',
+            'João Batista'
+        ],
+        answer: 3
     },
 ];
